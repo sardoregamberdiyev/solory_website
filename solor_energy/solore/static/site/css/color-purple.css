@@ -1,0 +1,245 @@
+/*-------- COLOR PURPLE--------*/
+[data-loader="circle-side"] {
+  border: 2px solid #6449e7;
+}
+
+/* Main navigation */
+header.sticky .main-menu > ul > li span > a {
+  color: #444;
+}
+header.sticky .main-menu > ul > li span:hover > a {
+  opacity: 1;
+  color: #6449e7;
+}
+
+.main-menu ul ul li a:hover {
+  color: #6449e7 !important;
+}
+.main-menu ul ul li:hover > a {
+  background-color: #f9f9f9;
+  color: #6449e7 !important;
+  padding-left: 18px;
+}
+
+/*-------- 1.1 Typography --------*/
+.main_title_2 span em {
+  background-color: #6449e7;
+}
+
+.main_title_3 span em {
+  background-color: #6449e7;
+}
+
+/*General links color*/
+a {
+  color: #6449e7;
+}
+a:hover, a:focus {
+  color: #111;
+  text-decoration: none;
+  outline: none;
+}
+
+/*-------- 1.2 Buttons --------*/
+a.btn_1,
+.btn_1 {
+  background: #6449e7;
+}
+a.btn_1.outline,
+.btn_1.outline {
+  border: 2px solid #6449e7;
+  color: #6449e7;
+}
+
+a.btn_map:hover {
+  color: #6449e7;
+}
+
+a.btn_map_in,
+.btn_map_in {
+  background: #6449e7;
+}
+
+/*-------- 1.3 Structure --------*/
+.hero_in a.btn_photos:hover {
+  color: #6449e7;
+}
+
+/* Footer */
+footer ul li a:hover {
+  color: #6449e7;
+  opacity: 1;
+}
+footer ul.links li a:hover:after {
+  opacity: 1;
+  color: #6449e7;
+}
+
+/* Newsletter footer*/
+#newsletter input[type='submit'] {
+  background-color: #6449e7;
+}
+
+/*============================================================================================*/
+/* 2.  CONTENT */
+/*============================================================================================*/
+#custom-search-input input[type='submit'] {
+  background-color: #6449e7;
+}
+
+.custom-search-input-2 input[type='submit'] {
+  background-color: #6449e7;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: #6449e7 !important;
+}
+
+a.box_news:hover h4 {
+  color: #6449e7;
+}
+
+.box_grid a.wish_bt.liked:after {
+  color: #6449e7;
+}
+.box_grid a.wish_bt:hover.liked:after {
+  color: #6449e7;
+}
+
+.box_list a.wish_bt.liked:after {
+  color: #6449e7;
+}
+.box_list a.wish_bt:hover.liked:after {
+  color: #6449e7;
+}
+
+.layout_view a:hover {
+  color: #6449e7;
+}
+
+.switch-field label:hover {
+  color: #6449e7;
+}
+
+.secondary_nav ul li a:hover {
+  color: #6449e7;
+}
+.secondary_nav ul li:last-child a {
+  background-color: #6449e7;
+  color: #fff;
+}
+
+a.btn_infobox_detail:before:hover {
+  color: #6449e7;
+}
+
+.btn_infobox_get_directions, a.btn_infobox_phone {
+  color: #6449e7;
+}
+
+.contact_info ul li h4 {
+  color: #6449e7;
+}
+
+.search_bar_error input[type='submit'] {
+  background-color: #6449e7;
+}
+
+.form_title h3 strong {
+  background-color: #6449e7;
+}
+
+.grid ul li figcaption a:hover, .grid ul li figcaption a:focus {
+  color: #6449e7;
+}
+
+ul#cat_nav li a:hover, ul#cat_nav li a#active, ul#cat_nav li a.active {
+  color: #6449e7;
+}
+
+.list_articles ul li a:hover {
+  color: #6449e7;
+}
+
+#toTop:hover {
+  background-color: #6449e7;
+}
+
+.accordion_2 .card-header h5 a i.indicator {
+  color: #6449e7;
+}
+
+#cookie-bar .cb-policy {
+  background: #6449e7;
+}
+
+.applyBtn.btn.btn-sm.btn-primary {
+  background-color: #6449e7;
+}
+
+/*============================================================================================*/
+/* MAP CLUSTERER */
+/*============================================================================================*/
+.cluster-visible {
+  background-color: #6449e7;
+}
+.cluster-visible:before {
+  border: 7px solid #6449e7;
+  box-shadow: inset 0 0 0 4px #6449e7;
+}
+
+/*-------- Leaflet cluster --------*/
+.marker-cluster div {
+  background-color: #6449e7;
+}
+
+.marker-cluster-small div,
+.marker-cluster-medium div,
+.marker-cluster-large div {
+  background-color: #6449e7;
+}
+
+.marker-cluster div:before {
+  border: 7px solid #6449e7;
+  box-shadow: inset 0 0 0 4px #6449e7;
+}
+
+/*============================================================================================*/
+/* BLOG */
+/*============================================================================================*/
+article.blog .post_info h3 a:hover {
+  color: #6449e7;
+}
+
+.comments-list h3 a:hover {
+  color: #6449e7;
+}
+
+.widget ul.cats a:hover {
+  color: #6449e7;
+}
+
+.tags a:hover {
+  background-color: #6449e7;
+}
+
+.postmeta ul li a:hover {
+  color: #6449e7;
+}
+
+/*============================================================================================*/
+/* PRICING TABLES */
+/*============================================================================================*/
+.pricing-switcher .fieldset {
+  background-color: #6449e7;
+}
+.pricing-switcher .switch {
+  background-color: #3f1de0;
+}
+
+@media only screen and (min-width: 769px) {
+  .pricing-wrapper > li::before {
+    background-color: white;
+  }
+}

@@ -1,0 +1,37 @@
+
+
+<header class="header menu_fixed">
+    {% load static %}
+		<div id="preloader"><div data-loader="circle-side"></div></div><!-- /Page Preload -->
+		<div id="logo">
+			<a href="{% url 'home' %}">
+				<img src="{% static 'site/./img/logo.png' %}" width="100" height="50" alt="" class="logo_normal">
+				<img src="{% static 'site/./img/logo.png' %}" width="100" height="50" alt="" class="logo_sticky">
+			</a>
+		</div>
+		<!-- <ul id="top_menu">
+			<li class="lang"><a href="cart-1.html" style="color: #ffa600; font-size: 1.5em;">Uz</a></li>
+			<li class="lang"><a href="#sign-in-dialog" style="color: black; font-size: 1.5em;">Ru</a></li>
+			<li class="lang"><a href="wishlist.html" style="color: black; font-size: 1.5em;">Eng</a></li>
+		</ul> -->
+		<!-- /top_menu -->
+		<a href="#menu" class="btn_mobile">
+			<div class="hamburger hamburger--spin" id="hamburger">
+				<div class="hamburger-box">
+					<div class="hamburger-inner"></div>
+				</div>
+			</div>
+		</a>
+		<nav id="menu" class="main-menu">
+			<ul>
+				<li><a href="{% url 'home' %}">Bosh sahifa</a></li>
+				<li><a href="{% url 'about' %}">Biz haqimizda</a></li>
+				<li><a href="{% url 'restaurants_list_isotope' %}">Xaridlar bo'limi</a></li>
+				<li><a href="{% url 'tours_list_isotope' %}">Mahsulotlar</a></li>
+				<li><a href="{% url 'adventure' %}">Xizmat ko'rsatish</a></li>
+				<li><a href="{% url 'media_gallery' %}">Galereya</a></li>
+				<li><a href="{% url 'faq' %}">Investorlik qilish</a></li>
+				<li><a href="{% url 'contacts' %}">Bog'lanish</a></li>
+			</ul>
+		</nav>
+	</header>

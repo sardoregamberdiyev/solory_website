@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	{% load static %}
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>D - SOLAR | Premium site.</title>
+
+    <!-- Favicons-->
+    <link rel="shortcut icon" href="{% static 'site/./img/shortcut.jpg' %}">
+    <!-- <link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="img/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="img/apple-touch-icon-144x144-precomposed.png"> -->
+
+    <!-- GOOGLE WEB FONT -->
+    <link rel="preconnect" href="{% static 'site/https://fonts.gstatic.com' %}">
+    <link href="{% static 'site/https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap' %}" rel="stylesheet">
+
+    <!-- BASE CSS -->
+    <link href="{% static 'site/css/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'site/css/style.css' %}" rel="stylesheet">
+	<link href="{% static 'site/css/vendors.css' %}" rel="stylesheet">
+
+	<!-- REVOLUTION SLIDER CSS -->
+	<link rel="stylesheet" type="text/css" href="{% static 'site/revolution-slider/fonts/font-awesome/css/font-awesome.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'site/revolution-slider/css/settings.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'site/revolution-slider/css/layers.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'site/revolution-slider/css/navigation.css' %}">
+
+    <!-- YOUR CUSTOM CSS -->
+    <link href="{% static 'site/css/custom.css' %}" rel="stylesheet">
+	
+	<!-- Modernizr -->
+	<script src="{% static 'site/js/modernizr.js' %}"></script>
+
+</head>
+
+<body>
+		
+	<div id="page">
+		
+		{% include '_partials/header.html' %}
+	<!-- /header -->
+	
+	<main>
+		<section class="header-video adventure">
+			<div id="hero_video">
+				<div class="wrapper">
+				<div class="container container-custom">
+					<small>Introducing</small>
+					<h3>D-Solor Adventures</h3>
+					<p>Lorem ipsum dolor sit amet consectetur Lorem, ipsum..</p>
+					<a href="adventure-detail.html" class="btn_1">Read more</a>	
+				</div>
+			</div>
+			</div>
+			<video src="{% static 'site/img/header-bac-vid.mp4' %}" class="header-video--media" data-video-src="video/adventure" data-teaser-source="video/adventure" data-provider="adventure" data-video-width="1920" data-video-height="960">
+
+			</video>
+		</section>
+		<!-- /header-video -->
+		
+		<div class="container container-custom ">
+			<section class="add_bottom_45">
+				<div class="main_title_3">
+					<span><em></em></span>
+					<h2>Popular Adventures Tours</h2>
+					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora.</p>
+				</div>
+
+				
+			</section>
+			<!-- /section -->
+
+			<div class="banner">
+				<div class="wrapper d-flex align-items-center opacity-mask" data-opacity-mask="rgba(0, 0, 0, 0.3)">
+					<div>
+						<small>Adventure</small>
+						<h3>Your Perfect<br>Advenure Experience</h3>
+						<p>Activities and accommodations</p>
+						<a href="adventure-detail.html" class="btn_1">Read more</a>
+					</div>
+				</div>
+				<!-- /wrapper -->
+			</div>
+			<!-- /banner -->
+			
+			<section>
+				<div class="main_title_3">
+					<span><em></em></span>
+					<h2>Last Added Adventures Tours</h2>
+					<p>Cum doctus civibus efficiantur in imperdiet deterruisset.</p>
+				</div>
+				<div class="row">
+					<div class="col-xl-3 col-lg-6 col-md-6">
+						<a href="restaurant-detail.html" class="grid_item latest_adventure">
+							<figure>
+								<div class="score"><strong>8.5</strong></div>
+								<img src="{% static 'site/img/adventure_latest_1.jpg' %}" class="img-fluid" alt="">
+								<div class="info">
+									<em>2 days in United States</em>
+									<h3>Canyoning El paso</h3>
+								</div>
+							</figure>
+						</a>
+					</div>
+					<!-- /grid_item -->
+					<div class="col-xl-3 col-lg-6 col-md-6">
+						<a href="restaurant-detail.html" class="grid_item latest_adventure">
+							<figure>
+								<div class="score"><strong>7.9</strong></div>
+								<img src="{% static 'site/img/adventure_latest_2.jpg' %}" class="img-fluid" alt="">
+								<div class="info">
+									<em>2 days in Canada</em>
+									<h3>Camping and mountains</h3>
+								</div>
+							</figure>
+						</a>
+					</div>
+					<!-- /grid_item -->
+					<div class="col-xl-3 col-lg-6 col-md-6">
+						<a href="restaurant-detail.html" class="grid_item latest_adventure">
+							<figure>
+								<div class="score"><strong>7.5</strong></div>
+								<img src="{% static 'site/img/adventure_latest_3.jpg' %}" class="img-fluid" alt="">
+								<div class="info">
+									<em>1 days in United States</em>
+									<h3>Route 66 Bike Riding</h3>
+								</div>
+							</figure>
+						</a>
+					</div>
+					<!-- /grid_item -->
+					<div class="col-xl-3 col-lg-6 col-md-6">
+						<a href="restaurant-detail.html" class="grid_item latest_adventure">
+							<figure>
+								<div class="score"><strong>9.0</strong></div>
+								<img src="{% static 'site/img/adventure_latest_4.jpg' %}" class="img-fluid" alt="">
+								<div class="info">
+									<em>2 days Belize</em>
+									<h3>San Rafael Belize</h3>
+								</div>
+							</figure>
+						</a>
+					</div>
+					<!-- /grid_item -->
+				</div>
+				<!-- /row -->
+				<a href="#0"><strong>View all (157) <i class="arrow_carrot-right"></i></strong></a>
+			</section>
+			<!-- /section -->
+		</div>
+		<!-- /container -->
+
+		<div class="bg_color_1">
+			<div class="container container-custom margin_80_55">
+				<div class="main_title_2">
+					<h2>Plan Your Trip Easly</h2>
+					<p>Cum doctus civibus efficiantur in imperdiet deterruisset.</p>
+				</div>
+				<div class="row adventure_feat">
+					<div class="col-md-4">
+						<img src="{% static 'site/./img/solar-energy.png' %}" alt="" width="75" height="75">
+						<h3>Itineraries studied in detail</h3>
+						<p>Ius cu tamquam persequeris, eu veniam apeirian platonem qui, id aliquip voluptatibus pri.</p>
+					</div>
+					<div class="col-md-4">
+						<img src="{% static 'site/./img/solar-house.png' %}" alt="" width="75" height="75">
+						<h3>Room and food included</h3>
+						<p>His in harum errem dissentias, has mutat facilisi ea, ubique possim praesent eum ea.</p>
+					</div>
+					<div class="col-md-4">
+						<img src="{% static 'site/./img/solar-panel.png' %}" alt="" width="75" height="75">
+						<h3>Everything organized</h3>
+						<p>In ridens tamquam argumentum usu, ne ludus intellegebat vix. Eu inani omnes usu, an pri errem mucius.</p>
+					</div>
+				</div>
+			</div>
+			<!-- /container -->
+		</div>
+		<!-- /bg_color_1 -->
+
+		<div class="call_section adventure">
+			<div class="container clearfix">
+				<div class="col-lg-5 col-md-6 float-right wow" data-wow-offset="250">
+					<div class="block-reveal">
+						<div class="block-vertical"></div>
+						<div class="box_1">
+							<h3>Enjoy a GREAT travel with us</h3>
+							<p>Ius cu tamquam persequeris, eu veniam apeirian platonem qui, id aliquip voluptatibus pri. Ei mea primis ornatus disputationi. Menandri erroribus cu per, duo solet congue ut. </p>
+							<a href="#0" class="btn_1 rounded">Read more</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--/call_section-->
+	</main>
+	<!-- /main -->
+
+
+
+
+		{% include '_partials/footer.html' %}
+
+
+
+
+
+
+	<div id="toTop"></div><!-- Back to top button -->
+	</div>
+	<!-- COMMON SCRIPTS -->
+    <script src="{% static 'site/js/common_scripts.js' %}"></script>
+    <script src="{% static 'site/js/main.js' %}"></script>
+	<script src="{% static 'site/assets/validate.js' %}"></script>
+	
+	<!-- SPECIFIC SCRIPTS -->
+	<script src="{% static 'site/js/video_header.js' %}"></script>
+	<script>
+		HeaderVideo.init({
+			container: $('.header-video'),
+			header: $('.header-video--media'),
+			videoTrigger: $("#video-trigger"),
+			autoPlayVideo: true
+		});
+	</script>
+
+	
+</body>
+</html>

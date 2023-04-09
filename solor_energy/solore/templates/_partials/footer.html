@@ -1,0 +1,52 @@
+
+
+<footer>
+	{% load static %}
+		<div class="container margin_60_35">
+			<div class="row">
+				<div class="col-lg-5 col-md-12 p-r-5">
+					<p><img src="{% static 'site/./img/logo.png' %}" width="100" height="50" alt=""></p>
+					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, ut perferendis? Labore optio ex quo accusamus eligendi ab laboriosam consequuntur, vel deserunt quod sed? Esse quos quisquam odio culpa accusantium.
+					</p>
+					<div class="follow_us">
+						<ul>
+							<li>Obuna bo'lish</li>
+							<li><a href="#0"><i class="ti-facebook"></i></a></li>
+							<li><a href="#0"><i class="ti-twitter-alt"></i></a></li>
+							<li><a href="#0"><i class="ti-google"></i></a></li>
+							<li><a href="#0"><i class="ti-pinterest"></i></a></li>
+							<li><a href="#0"><i class="ti-instagram"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 ml-lg-auto">
+					<h5>Kerakli bo'limlar</h5>
+					<ul class="links">
+						<li><a href="{% url 'hotels_grid_isotope' %}">Xizmat ko'rsatish</a></li>
+						<li><a href="{% url 'media_gallery' %}">Galereya</a></li>
+						<li><a href="{% url 'tour_detail' %}">Investorlik qilish</a></li>
+						<li><a href="{% url 'contacts' %}">Bog'lanish</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<h5>Biz bilan bog'lanish</h5>
+					<ul class="contacts">
+						<li><a href="tel://+998(88)007-41-81"><i class="ti-mobile"></i> +998(88)007-41-81</a></li>
+						<li><a href="sardorbackend@gmail.com"><i class="ti-email"></i>sardorbackend@gmail.com</a></li>
+					</ul>
+					<div id="newsletter">
+					<h6>Ro'yhatdan o'tish</h6>
+					<div id="message-newsletter"></div>
+					<form method="post" action="assets/newsletter.php" name="newsletter_form" id="newsletter_form">
+						<div class="form-group">
+							<input type="email" name="email_newsletter" id="email_newsletter" class="form-control" placeholder="Email kiriting">
+							<input type="submit" value="Submit" id="submit-newsletter">
+						</div>
+					</form>
+					</div>
+				</div>
+			</div>
+			<!--/row-->
+			<hr>
+		</div>
+	</footer>

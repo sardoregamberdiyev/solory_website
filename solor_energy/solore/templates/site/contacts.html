@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	{% load static %}
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>D - SOLAR | Premium site.</title>
+
+    <!-- Favicons-->
+    <link rel="shortcut icon" href="{% static 'site/./img/shortcut.jpg' %}">
+    <!-- <link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="img/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="img/apple-touch-icon-144x144-precomposed.png"> -->
+
+    <!-- GOOGLE WEB FONT -->
+    <link rel="preconnect" href="{% static 'site/https://fonts.gstatic.com' %}">
+    <link href="{% static 'site/https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap' %}" rel="stylesheet">
+
+    <!-- BASE CSS -->
+    <link href="{% static 'site/css/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'site/css/style.css' %}" rel="stylesheet">
+	<link href="{% static 'site/css/vendors.css' %}" rel="stylesheet">
+
+	<!-- REVOLUTION SLIDER CSS -->
+	<link rel="stylesheet" type="text/css" href="{% static 'site/revolution-slider/fonts/font-awesome/css/font-awesome.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'site/revolution-slider/css/settings.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'site/revolution-slider/css/layers.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'site/revolution-slider/css/navigation.css' %}">
+
+    <!-- YOUR CUSTOM CSS -->
+    <link href="{% static 'site/css/custom.css' %}" rel="stylesheet">
+
+    <!-- YOUR CUSTOM CSS -->
+    <link href="{% static 'site/css/custom.css' %}" rel="stylesheet">
+	
+</head>
+
+<body>
+	
+	<div id="page">
+		
+		{% include '_partials/header.html' %}
+	<!-- /header -->
+	
+	<main>
+		<section class="hero_in contacts">
+			<div class="wrapper">
+				<div class="container">
+					<h1 class="fadeInUp"><span></span>Bog'lanish</h1>
+				</div>
+			</div>
+		</section>
+		<!--/hero_in-->
+
+		<div class="contact_info">
+			<div class="container">
+				<ul class="clearfix">
+					<li>
+						<i class="pe-7s-map-marker"></i>
+						<h4>Manzil</h4>
+						<span>Toshkent, Yashnobod<br>Uzbekistan - Tashkent.</span>
+					</li>
+					<li>
+						<i class="pe-7s-mail-open-file"></i>
+						<h4>Email address</h4>
+						<span>sardorbackend@gmail.com - islomovsherdor6@gmail.com<br><small>Dushanbadan va Jumagacha 9:00 - 18:00</small></span>
+
+					</li>
+					<li>
+						<i class="pe-7s-phone"></i>
+						<h4>Telefon raqm</h4>
+						<span> +998(88)007-41-81,  +998(94)315-13-37<br><small>Dushanbadan va Jumagacha 9:00 - 18:00</small></span>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--/contact_info-->
+
+		<div class="bg_color_1">
+			<div class="container margin_80_55">
+				<div class="row justify-content-between">
+					<div class="col-lg-5">
+						<div class="map_contact">
+						</div>
+						<!-- /map -->
+					</div>
+					<div class="col-lg-6">
+						<h4>Habar Yuborish</h4>
+						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi, perferendis!</p>
+						<div id="message-contact"></div>
+						<form method="post" action="assets/contact.php" id="contactform" autocomplete="off">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="form-group">
+										<label>Ism</label>
+										<input class="form-control" type="text" id="name_contact" name="name_contact">
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<label>Familya</label>
+										<input class="form-control" type="text" id="lastname_contact" name="lastname_contact">
+									</div>
+								</div>
+							</div>
+							<!-- /row -->
+							<div class="row">
+								<div class="col-md-6">
+									<div class="form-group">
+										<label>Email</label>
+										<input class="form-control" type="email" id="email_contact" name="email_contact">
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<label>Telefon</label>
+										<input class="form-control" type="text" id="phone_contact" name="phone_contact">
+									</div>
+								</div>
+							</div>
+							<!-- /row -->
+							<div class="form-group">
+								<label>Qisqa habar</label>
+								<textarea class="form-control" id="message_contact" name="message_contact" style="height:150px;"></textarea>
+							</div>
+						</form>
+					</div>
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- /container -->
+		</div>
+		<!-- /bg_color_1 -->
+	</main>
+	<!--/main-->
+	
+
+
+		{% include '_partials/footer.html' %}
+
+
+
+
+
+	<!-- /Sign In Popup -->
+	
+	<div id="toTop"></div><!-- Back to top button -->
+	
+	<!-- COMMON SCRIPTS -->
+    <script src="{% static 'site/js/common_scripts.js' %}"></script>
+    <script src="{% static 'site/js/main.js' %}"></script>
+	<script src="{% static 'site/assets/validate.js' %}"></script>
+	
+	<!-- SPECIFIC SCRIPTS -->
+	<script src="{% static 'site/http://maps.googleapis.com/maps/api/js' %}"></script>
+	<script src="{% static 'site/js/mapmarker.jquery.js' %}"></script>
+	<script src="{% static 'site/js/mapmarker_func.jquery.js' %}"></script>
+	</div>
+</body>
+</html>

@@ -1,0 +1,245 @@
+/*-------- COLOR AQUA--------*/
+[data-loader="circle-side"] {
+  border: 2px solid #1cbbb4;
+}
+
+/* Main navigation */
+header.sticky .main-menu > ul > li span > a {
+  color: #444;
+}
+header.sticky .main-menu > ul > li span:hover > a {
+  opacity: 1;
+  color: #1cbbb4;
+}
+
+.main-menu ul ul li a:hover {
+  color: #1cbbb4 !important;
+}
+.main-menu ul ul li:hover > a {
+  background-color: #f9f9f9;
+  color: #1cbbb4 !important;
+  padding-left: 18px;
+}
+
+/*-------- 1.1 Typography --------*/
+.main_title_2 span em {
+  background-color: #1cbbb4;
+}
+
+.main_title_3 span em {
+  background-color: #1cbbb4;
+}
+
+/*General links color*/
+a {
+  color: #1cbbb4;
+}
+a:hover, a:focus {
+  color: #111;
+  text-decoration: none;
+  outline: none;
+}
+
+/*-------- 1.2 Buttons --------*/
+a.btn_1,
+.btn_1 {
+  background: #1cbbb4;
+}
+a.btn_1.outline,
+.btn_1.outline {
+  border: 2px solid #1cbbb4;
+  color: #1cbbb4;
+}
+
+a.btn_map:hover {
+  color: #1cbbb4;
+}
+
+a.btn_map_in,
+.btn_map_in {
+  background: #1cbbb4;
+}
+
+/*-------- 1.3 Structure --------*/
+.hero_in a.btn_photos:hover {
+  color: #1cbbb4;
+}
+
+/* Footer */
+footer ul li a:hover {
+  color: #1cbbb4;
+  opacity: 1;
+}
+footer ul.links li a:hover:after {
+  opacity: 1;
+  color: #1cbbb4;
+}
+
+/* Newsletter footer*/
+#newsletter input[type='submit'] {
+  background-color: #1cbbb4;
+}
+
+/*============================================================================================*/
+/* 2.  CONTENT */
+/*============================================================================================*/
+#custom-search-input input[type='submit'] {
+  background-color: #1cbbb4;
+}
+
+.custom-search-input-2 input[type='submit'] {
+  background-color: #1cbbb4;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: #1cbbb4 !important;
+}
+
+a.box_news:hover h4 {
+  color: #1cbbb4;
+}
+
+.box_grid a.wish_bt.liked:after {
+  color: #1cbbb4;
+}
+.box_grid a.wish_bt:hover.liked:after {
+  color: #1cbbb4;
+}
+
+.box_list a.wish_bt.liked:after {
+  color: #1cbbb4;
+}
+.box_list a.wish_bt:hover.liked:after {
+  color: #1cbbb4;
+}
+
+.layout_view a:hover {
+  color: #1cbbb4;
+}
+
+.switch-field label:hover {
+  color: #1cbbb4;
+}
+
+.secondary_nav ul li a:hover {
+  color: #1cbbb4;
+}
+.secondary_nav ul li:last-child a {
+  background-color: #1cbbb4;
+  color: #fff;
+}
+
+a.btn_infobox_detail:before:hover {
+  color: #1cbbb4;
+}
+
+.btn_infobox_get_directions, a.btn_infobox_phone {
+  color: #1cbbb4;
+}
+
+.contact_info ul li h4 {
+  color: #1cbbb4;
+}
+
+.search_bar_error input[type='submit'] {
+  background-color: #1cbbb4;
+}
+
+.form_title h3 strong {
+  background-color: #1cbbb4;
+}
+
+.grid ul li figcaption a:hover, .grid ul li figcaption a:focus {
+  color: #1cbbb4;
+}
+
+ul#cat_nav li a:hover, ul#cat_nav li a#active, ul#cat_nav li a.active {
+  color: #1cbbb4;
+}
+
+.list_articles ul li a:hover {
+  color: #1cbbb4;
+}
+
+#toTop:hover {
+  background-color: #1cbbb4;
+}
+
+.accordion_2 .card-header h5 a i.indicator {
+  color: #1cbbb4;
+}
+
+#cookie-bar .cb-policy {
+  background: #1cbbb4;
+}
+
+.applyBtn.btn.btn-sm.btn-primary {
+  background-color: #1cbbb4;
+}
+
+/*============================================================================================*/
+/* MAP CLUSTER */
+/*============================================================================================*/
+.cluster-visible {
+  background-color: #1cbbb4;
+}
+.cluster-visible:before {
+  border: 7px solid #1cbbb4;
+  box-shadow: inset 0 0 0 4px #1cbbb4;
+}
+
+/*-------- Leaflet cluster --------*/
+.marker-cluster div {
+  background-color: #1cbbb4;
+}
+
+.marker-cluster-small div,
+.marker-cluster-medium div,
+.marker-cluster-large div {
+  background-color: #1cbbb4;
+}
+
+.marker-cluster div:before {
+  border: 7px solid #1cbbb4;
+  box-shadow: inset 0 0 0 4px #1cbbb4;
+}
+
+/*============================================================================================*/
+/* BLOG */
+/*============================================================================================*/
+article.blog .post_info h3 a:hover {
+  color: #1cbbb4;
+}
+
+.comments-list h3 a:hover {
+  color: #1cbbb4;
+}
+
+.widget ul.cats a:hover {
+  color: #1cbbb4;
+}
+
+.tags a:hover {
+  background-color: #1cbbb4;
+}
+
+.postmeta ul li a:hover {
+  color: #1cbbb4;
+}
+
+/*============================================================================================*/
+/* PRICING TABLES */
+/*============================================================================================*/
+.pricing-switcher .fieldset {
+  background-color: #1cbbb4;
+}
+.pricing-switcher .switch {
+  background-color: #158f89;
+}
+
+@media only screen and (min-width: 769px) {
+  .pricing-wrapper > li::before {
+    background-color: white;
+  }
+}
